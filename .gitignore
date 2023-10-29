@@ -1,0 +1,69 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+
+test.py
+
+# Environment
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Log files
+*.log
+
+# Local database files
+db.sqlite
+db.sqlite3
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Compiled C extensions
+*.so
+
+# Python cache files
+*.pyc
+
+# Python coverage files
+.coverage
+
+# Dependencies
+lib/
+lib64/
+bin/
+include/
+share/
+
+# Project specific configurations
+instance/
+config.py
+
+# IDE-specific files (e.g., PyCharm, Visual Studio Code)
+.vscode/
+.idea/
+
+# System-specific files
+.DS_Store
+
+# Package directories
+*.egg-info/
+dist/
+build/
+
+# Editor/IDE temporary files
+*.swp
+*~
+
+# Miscellaneous
+*.pyproj
+*.user
+*.suo
+*.tmp
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
