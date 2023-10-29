@@ -13,12 +13,9 @@ current_directory = os.getcwd()
 service_key_file = 'windy-cedar-403413-d9fd4f98d4bb.json'
 service_key_file_path = os.path.join(current_directory, service_key_file)
 
-if os.path.exists(service_key_file_path):
-    def configure_gcs_client():
-        client = storage.Client.from_service_account_json(service_key_file_path)
-        return client
-else:
-    print({"error": True , "message": "The storage key does not exist in the current working directory."})
+def configure_gcs_client():
+    client = storage.Client.from_service_account_json(service_key_file_path)
+    return client
 
 gcs_client = configure_gcs_client()
 bucket_name = 'upload-test-matic'  
